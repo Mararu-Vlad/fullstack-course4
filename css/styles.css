@@ -1,0 +1,19 @@
+ul.nav.navbar-nav {
+    background-color: #ccc;
+}
+
+.title-page {
+    padding-top: 55px;
+}
+
+.navbar-brand {
+	padding-left: 50px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.content {
+	background-color: green;
+}
