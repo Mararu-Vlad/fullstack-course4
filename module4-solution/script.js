@@ -71,3 +71,26 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
 })(window);
+
+/* Some testing beside the assignement */
+function e () {
+  console.log(this); // print window object (global object)
+}
+e();
+
+function Constructor (){
+  console.log(this);
+  //"this" will prin an object when used keyword "new"
+}
+
+var tt = new Constructor();
+console.log(tt);
+
+var obj = {
+  ff : 1,
+  q : function () {
+    console.log(this);
+  }
+};
+
+obj.q();
