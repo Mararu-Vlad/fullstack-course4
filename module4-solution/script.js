@@ -1,4 +1,4 @@
-(function () {
+(function (window) {
 
 // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
@@ -70,4 +70,4 @@ WARNING!!! WARNING!!!
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-})()
+})(window);

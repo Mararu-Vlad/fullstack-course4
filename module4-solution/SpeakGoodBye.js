@@ -1,4 +1,4 @@
-(function () {
+(function (window) {
 
 // NOTE! The steps in this file are basically identical to the ones you
 // performed in the SpeakHello.js file.
@@ -28,4 +28,5 @@ var speakWord = "Good Bye";
 // xxxx.xxxx = byeSpeaker;
 
 window.byeSpeaker = byeSpeaker;
-})()
+
+})(window);
