@@ -2,10 +2,6 @@ ul.nav.navbar-nav {
     background-color: #ccc;
 }
 
-.title-page {
-    padding-top: 55px;
-}
-
 .navbar-brand {
 	padding-left: 50px;
 }
@@ -14,6 +10,7 @@ ul.nav.navbar-nav {
 	font-weight: bold;
 }
 
-.content {
+#chicken, #sushi, #beef {
 	background-color: green;
+    margin-bottom: 20px;
 }
